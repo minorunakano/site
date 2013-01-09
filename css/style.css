@@ -1,0 +1,137 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 82%;
+	background-color: #d6e8fa;
+	text-align: center;
+	margin: 0;
+}
+#wrapper {
+	background-color: #ffffff;
+	background-image: url(../images/bg_wrapper.gif);
+	background-repeat: repeat-y;
+	text-align: left;
+	width: 750px;
+	margin: 0 auto 0 auto;
+}
+#main {
+	float: right;
+	width: 500px;
+	margin-right:25px;
+}
+#header h1, #header p {
+
+	margin:0;
+	padding:0;
+	height:163px;
+
+
+}
+#footer {
+	clear:both;
+	padding-top:1em;
+}
+#footer p {
+	font-size:85%;
+	color:#8f6b39;
+	background-color:#e3d6b4;
+	text-align:center;
+	padding:4px;
+}
+#main p {
+	margin-top:0;
+	margin-bottom:1.5em;
+
+}
+img {
+	border:none;
+}
+
+/* 基本レイアウト ここまで↑ */
+
+/* サブ領域のナビゲーション ここから↓ */
+#sub {
+	float: left;
+	width: 200px;
+}
+#sub ul {
+	margin:1em 0 1em 0;
+	padding:0;
+}
+#sub ul li {
+	list-style-type:none;
+}
+#sub ul li a {
+	line-height:40px;
+	color:#8f6b39;
+	text-decoration:none;
+	background-color:#e6e6e6;
+	background-repeat:no-repeat;
+	background-position:19px center;
+	display:block;
+	width:148px;
+	margin-bottom:1px;
+	padding-left:52px;
+
+}
+#sub ul li a:hover {
+	background-color:#cccccc;
+
+}
+#sub ul li a#n_guide {
+	background-image:url(../images/icon_guide.gif);
+}
+#sub ul li a#n_access {
+	background-image:url(../images/icon_access.gif);
+}
+#sub ul li a#n_contact {
+	background-image:url(../images/icon_contact.gif);
+}
+/* サブ領域のナビゲーション ここまで↑ */
+
+/* 「見どころ」ページ ここから↓ */
+#main h1 {
+	font-size:120%;
+	line-height:36px;
+	color:#c30d23;
+	background-image:url(../images/flower_kage.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:36px;
+	margin-top:0;
+	padding:4px 0 0 40px;
+	border-bottom:1px dotted #c30d23;
+}
+img.floatLeft {
+	float:left;
+	margin-right:10px;
+
+}
+
+/* 「見どころ」ページ ここまで↑ */
+
+/* 「アクセス」ページ ここから↓ */
+table {
+	width:500px;
+	margin-bottom:1em;
+}
+table th, table td{
+	line-height:1.5em;
+	text-align:left;
+	padding:6px;
+	border-bottom:1px solid #cccccc;
+}
+table th {
+background-color:#f0f0f0;
+width:150px;
+
+}
+
+
+/* 「アクセス」ページ ここまで↑ */
+
+/* 「お問い合わせ」ページ ここから↓ */
+
+/* 「お問い合わせ」ページ ここまで↑ */
